@@ -1,0 +1,12 @@
+Компиляторы и инструменты отладки
+Открыть командную строку и там набирать команды этого раздела.
+
+Если вы установили WSL на Windows, то нужно выполнить следующие команды:
+
+sudo apt-get update
+sudo apt-get install cmake gcc clang gdb build-essential
+sudo apt-get install valgrind
+Проверьте, что компилятор установлен:
+
+gcc --version
+Должен быть напечатан номер установленной версии gcc.
